@@ -3,7 +3,7 @@ import ProfileImg from "../public/img/profileImg.jpg";
 
 const Banner = () => {
   return (
-    <div className="wrapper flex flex-col md:flex-row items-center gap-10 px-2 ">
+    <div className="border-b-[1px] border-b-slate-700 pb-14 pt-10 flex flex-col md:flex-row items-center gap-10 px-2 ">
       <div className="w-44 h-44 rounded-full bg-black">
         <Image
           className="w-full h-full rounded-full border-[1px] border-indigo-700 p-2 object-cover"

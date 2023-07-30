@@ -14,7 +14,9 @@ const ExperienceCard = ({ title, subTitle, icon }: Props) => {
       </span>
       <div>
         <h3 className="md:text-2xl text-xl font-bold">{title}</h3>
-        <p className="text-base tracking-wide text-gray-500">{subTitle}</p>
+        <p className="text-base tracking-wide dark:text-slate-400 text-gray-700">
+          {subTitle}
+        </p>
       </div>
     </div>
   );

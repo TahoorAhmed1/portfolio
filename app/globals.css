@@ -4,6 +4,6 @@
 
 @layer components {
   .wrapper {
-    @apply border-b-[1px] border-b-slate-700 py-20;
+    @apply border-b-[1px] border-b-slate-700 py-14;
   }
 }

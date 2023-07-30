@@ -3,7 +3,7 @@ import Title from "./Title";
 
 const Aboutme = () => {
   return (
-    <div className="wrapper px-3">
+    <div className="wrapper px-4">
       <Title text="About Me" icon={<SiInformatica />} />
       <div className="md:text-lg text-base font-medium tracking-wide flex flex-col gap-6 ">
         <p>

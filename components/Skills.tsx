@@ -4,7 +4,7 @@ import SkillsInput from "./SkillsInput";
 
 const Skills = () => {
   return (
-    <div className="wrapper px-3  ">
+    <div className="wrapper px-4  ">
       <Title text="Skills" icon={<GiSkills />} />
       <div className="flex gap-4 flex-wrap">
         <SkillsInput
