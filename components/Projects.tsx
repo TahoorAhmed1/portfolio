@@ -7,6 +7,7 @@ import dynamicPortfolio from "../public/img/projects/dynamicPortfolio.png";
 import bizhub from "../public/img/projects/bizhub.png";
 import ecommerce from "../public/img/projects/ecommerce.png";
 import pasbanDashboard from "../public/img/projects/pasbanDashboard.png";
+import messanger from "../public/img/projects/messanger.png";
 import reactBD from "../public/img/projects/reactBD.png";
 import dashboard from "../public/img/projects/dashboard.webp";
 import Image from "next/image";
@@ -32,7 +33,11 @@ const Projects = () => {
           title="Bizhub"
           link="https://portfolio-nu-gray-95.vercel.app/"
         />
-       
+        <ProjectCard
+          img={messanger.src}
+          title="Messanger"
+          link="https://portfolio-nu-gray-95.vercel.app/"
+        />
       </div>
     </div>
   );
