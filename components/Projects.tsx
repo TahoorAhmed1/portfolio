@@ -1,16 +1,11 @@
 import { FaProjectDiagram } from "react-icons/fa";
 import Title from "./Title";
-import amazonClone from "../public/img/projects/amazonClone.webp";
-import cyberBlog from "../public/img/projects/cyberBlog.webp";
-import noorShop from "../public/img/projects/noorShop.webp";
-import dynamicPortfolio from "../public/img/projects/dynamicPortfolio.png";
 import bizhub from "../public/img/projects/bizhub.png";
 import ecommerce from "../public/img/projects/ecommerce.png";
 import pasbanDashboard from "../public/img/projects/pasbanDashboard.png";
+import interNativeLogistics from "../public/img/projects/interNativeLogistics.png";
+import interNativeLedger from "../public/img/projects/interNativeLedger.png";
 import messanger from "../public/img/projects/messanger.png";
-import reactBD from "../public/img/projects/reactBD.png";
-import dashboard from "../public/img/projects/dashboard.webp";
-import Image from "next/image";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
@@ -21,6 +16,16 @@ const Projects = () => {
         <ProjectCard
           img={pasbanDashboard.src}
           title="Dashboard"
+          link="https://portfolio-nu-gray-95.vercel.app/"
+        />
+        <ProjectCard
+          img={interNativeLogistics.src}
+          title="InterNativeLogistics "
+          link="https://portfolio-nu-gray-95.vercel.app/"
+        />
+        <ProjectCard
+          img={interNativeLedger.src}
+          title="interNativeLedger "
           link="https://portfolio-nu-gray-95.vercel.app/"
         />
         <ProjectCard

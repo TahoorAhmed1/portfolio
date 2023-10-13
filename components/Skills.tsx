@@ -18,18 +18,21 @@ const Skills = () => {
           title="Typescript"
           link="https://www.typescriptlang.org/"
         />
+        <SkillsInput title="Solidity" link="https://soliditylang.org/" />
+        <SkillsInput title="Etherjs" link="https://docs.ethers.org/v5/" />
+        <SkillsInput title="HardHat" link="https://hardhat.org/" />
         <SkillsInput title="Expressjs" link="https://expressjs.com/" />
-        <SkillsInput title="Context Api" link="https://legacy.reactjs.org/docs/context.html" />
+        <SkillsInput
+          title="Context Api"
+          link="https://legacy.reactjs.org/docs/context.html"
+        />
         <SkillsInput title="Zustand" link="https://zustand-demo.pmnd.rs/" />
         <SkillsInput title="MongoDB" link="https://www.mongodb.com/" />
         <SkillsInput
           title="Google Firebase"
           link="https://firebase.google.com/"
         />
-        <SkillsInput
-          title="App Write"
-          link="https://appwrite.io/"
-        />
+        <SkillsInput title="App Write" link="https://appwrite.io/" />
         <SkillsInput title="Sanity.io" link="https://www.sanity.io/" />
         <SkillsInput title="Socket.io" link="https://socket.io/" />
         <SkillsInput title="Pusher" link="https://pusher.com/" />
@@ -44,7 +47,7 @@ const Skills = () => {
         <SkillsInput title="Tailwindcss" link="https://tailwindcss.com/" />
 
         <SkillsInput title="VS Code" link="https://code.visualstudio.com/" />
-        
+
         <SkillsInput title="Git" link="https://git-scm.com/" />
         <SkillsInput title="Github" link="https://github.com/" />
         <SkillsInput title="Trello" link="https://trello.com/en" />
