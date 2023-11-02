@@ -1,5 +1,5 @@
 import Image from "next/image";
-import user from "../public/img/user.jpg";
+import user from "../assets/img/user.jpg";
 
 const Banner = () => {
   return (

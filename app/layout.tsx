@@ -7,6 +7,12 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 export const metadata = {
   title: "Tahoor Ahmed | Mern Stack Developer",
   description: "Tahoor Ahmed Portfolio",
+  icons: [
+    {
+      rel: "icon",
+      url: "favicon.ico",
+    },
+  ],
 };
 
 export default function RootLayout({

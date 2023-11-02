@@ -1,11 +1,12 @@
 import { FaProjectDiagram } from "react-icons/fa";
 import Title from "./Title";
-import bizhub from "../public/img/projects/bizhub.png";
-import ecommerce from "../public/img/projects/ecommerce.png";
-import pasbanDashboard from "../public/img/projects/pasbanDashboard.png";
-import interNativeLogistics from "../public/img/projects/interNativeLogistics.png";
-import interNativeLedger from "../public/img/projects/interNativeLedger.png";
-import messanger from "../public/img/projects/messanger.png";
+import bizhub from "../assets/img/projects/bizhub.webp";
+import ecommerce from "../assets/img/projects/ecommerce.webp";
+import pasbanDashboard from "../assets/img/projects/pasbanDashboard.png";
+import interNativeLogistics from "../assets/img/projects/interNativeLogistics.png";
+import interNativeLedger from "../assets/img/projects/interNativeLedger.webp";
+import kindleHub from "../assets/img/projects/kindleHub.webp";
+import messanger from "../assets/img/projects/messanger.webp";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
@@ -20,22 +21,27 @@ const Projects = () => {
         />
         <ProjectCard
           img={interNativeLogistics.src}
-          title="InterNativeLogistics "
+          title="InterNative Logistics "
           link="https://portfolio-nu-gray-95.vercel.app/"
         />
         <ProjectCard
           img={interNativeLedger.src}
-          title="interNativeLedger "
+          title="interNative Ledger "
+          link="https://portfolio-nu-gray-95.vercel.app/"
+        />
+        <ProjectCard
+          img={kindleHub.src}
+          title="kindle Hub "
+          link="https://portfolio-nu-gray-95.vercel.app/"
+        />
+        <ProjectCard
+          img={bizhub.src}
+          title="BizHub"
           link="https://portfolio-nu-gray-95.vercel.app/"
         />
         <ProjectCard
           img={ecommerce.src}
           title="Ecommerce "
-          link="https://portfolio-nu-gray-95.vercel.app/"
-        />
-        <ProjectCard
-          img={bizhub.src}
-          title="Bizhub"
           link="https://portfolio-nu-gray-95.vercel.app/"
         />
         <ProjectCard
