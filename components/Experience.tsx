@@ -11,7 +11,7 @@ const Experience = () => {
         <ExperienceCard
           title="InterNative Labs, LLC"
           subTitle="
-          Full Stack Developer Sep 2023 - Present · 2 mos"
+          Full Stack Developer Sep 2023 - Present"
           icon={<SiReactivex />}
         />
         <ExperienceCard
@@ -21,13 +21,13 @@ const Experience = () => {
         />
         <ExperienceCard
           title="Shot Technologies Pvt Ltd"
-          subTitle="Full Stack Developer Jun 2022 - Aug 2023 · 1 yr 3 mos "
+          subTitle="Full Stack Developer Nov 2022 - Aug 2023 · 9 mos "
           icon={<SiReactivex />}
         />
 
         <ExperienceCard
           title="Freelancer"
-          subTitle="MERN Stack Developer 2021 - 2023"
+          subTitle="MERN Stack Developer 2021 - 2024 - Present"
           icon={<SiFreelancer />}
         />
       </div>

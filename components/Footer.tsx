@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <p className="text-sm py-2 px-3">
-      © 2023 Tahoor Ahmed All rights reserved.
+      © 2024 Tahoor Ahmed All rights reserved.
     </p>
   );
 };

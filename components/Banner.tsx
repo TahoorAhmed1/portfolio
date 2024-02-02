@@ -19,8 +19,8 @@ const Banner = () => {
           Full Stack Developer
         </h3>
         <p className="text-base tracking-wide text-center md:text-left ">
-          I am a skilled MERN developer with a strong passion for creating
-          efficient and impactful web applications.
+          I am a skilled Full Stack Developer with a strong passion for creating
+          efficient and impactful web & mobile applications.
         </p>
       </div>
     </div>

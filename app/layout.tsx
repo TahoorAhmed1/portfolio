@@ -5,12 +5,12 @@ import Header from "@/components/Header";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Tahoor Ahmed | Mern Stack Developer",
+  title: "Tahoor Ahmed | Full Stack Developer",
   description: "Tahoor Ahmed Portfolio",
   icons: [
     {
       rel: "icon",
-      url: "favicon.ico",
+      url: "user.jpg",
     },
   ],
 };

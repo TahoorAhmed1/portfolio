@@ -7,6 +7,8 @@ import interNativeLogistics from "../assets/img/projects/interNativeLogistics.pn
 import interNativeLedger from "../assets/img/projects/interNativeLedger.webp";
 import kindleHub from "../assets/img/projects/kindleHub.webp";
 import messanger from "../assets/img/projects/messanger.webp";
+import infinibayfrontend from "../assets/img/projects/infinibay-frontend.png";
+import glowskin from "../assets/img/projects/glow-skin-care.png";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
@@ -20,13 +22,23 @@ const Projects = () => {
           link="https://portfolio-nu-gray-95.vercel.app/"
         />
         <ProjectCard
-          img={interNativeLogistics.src}
-          title="InterNative Logistics "
-          link="https://portfolio-nu-gray-95.vercel.app/"
+          img={infinibayfrontend.src}
+          title="Virtual Machine Web Frontend"
+          link="https://infinibay-frontend.vercel.app/"
         />
         <ProjectCard
-          img={interNativeLedger.src}
-          title="interNative Ledger "
+          img={glowskin.src}
+          title="Skin care"
+          link="https://glow-skin-care.vercel.app/"
+        />
+        <ProjectCard
+          img={interNativeLogistics.src}
+          title="InterNative Logistics "
+          link="https://internative-logistics.vercel.app/"
+        />
+        <ProjectCard
+          img={messanger.src}
+          title="Messanger"
           link="https://portfolio-nu-gray-95.vercel.app/"
         />
         <ProjectCard
@@ -45,8 +57,8 @@ const Projects = () => {
           link="https://portfolio-nu-gray-95.vercel.app/"
         />
         <ProjectCard
-          img={messanger.src}
-          title="Messanger"
+          img={interNativeLedger.src}
+          title="interNative Ledger "
           link="https://portfolio-nu-gray-95.vercel.app/"
         />
       </div>

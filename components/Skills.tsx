@@ -11,17 +11,22 @@ const Skills = () => {
           title="Javascript"
           link="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
         />
-        <SkillsInput title="Reactjs" link="https://react.dev/" />
-        <SkillsInput title="Nextjs" link="https://nextjs.org/" />
-        <SkillsInput title="Nodejs" link="https://nodejs.org/en" />
+        <SkillsInput title="React js" link="https://react.dev/" />
+        <SkillsInput title="ReactNative" link="https://reactnative.dev/" />
+        <SkillsInput title="Next js" link="https://nextjs.org/" />
+        <SkillsInput title="Node js" link="https://nodejs.org/en" />
         <SkillsInput
           title="Typescript"
           link="https://www.typescriptlang.org/"
         />
         <SkillsInput title="Solidity" link="https://soliditylang.org/" />
-        <SkillsInput title="Etherjs" link="https://docs.ethers.org/v5/" />
+        <SkillsInput title="Ether js" link="https://docs.ethers.org/v5/" />
         <SkillsInput title="HardHat" link="https://hardhat.org/" />
-        <SkillsInput title="Expressjs" link="https://expressjs.com/" />
+        <SkillsInput title="Express js" link="https://expressjs.com/" />
+        <SkillsInput
+          title="Redux ToolKit"
+          link="https://redux-toolkit.js.org/"
+        />
         <SkillsInput
           title="Context Api"
           link="https://legacy.reactjs.org/docs/context.html"
@@ -33,7 +38,6 @@ const Skills = () => {
           link="https://firebase.google.com/"
         />
         <SkillsInput title="App Write" link="https://appwrite.io/" />
-        <SkillsInput title="Sanity.io" link="https://www.sanity.io/" />
         <SkillsInput title="Socket.io" link="https://socket.io/" />
         <SkillsInput title="Pusher" link="https://pusher.com/" />
         <SkillsInput
