@@ -2,6 +2,8 @@ import "./globals.css";
 import { Montserrat } from "next/font/google";
 import Provider from "@/components/Provider";
 import Header from "@/components/Header";
+import Head from "next/head";
+
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
@@ -22,16 +24,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Provider>
-        <body className={montserrat.className}>
-          <div className="dark:bg-[#0C0C1E]">
-           <Head>
+      <Head>
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6230327304419894"
           crossOrigin="anonymous"
         ></script>
       </Head>
+      <Provider>
+        <body className={montserrat.className}>
+          <div className="dark:bg-[#0C0C1E]">
+            <Header />
             <div>{children}</div>
           </div>
         </body>
