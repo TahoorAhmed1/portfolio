@@ -25,7 +25,13 @@ export default function RootLayout({
       <Provider>
         <body className={montserrat.className}>
           <div className="dark:bg-[#0C0C1E]">
-            <Header></Header>
+           <Head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6230327304419894"
+          crossOrigin="anonymous"
+        ></script>
+      </Head>
             <div>{children}</div>
           </div>
         </body>
