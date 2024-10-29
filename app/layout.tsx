@@ -31,9 +31,11 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="beforeInteractive"
         />
-      </head>
+        <Script async  strategy="beforeInteractive" src="https://www.googletagmanager.com/gtag/js?id=AW-11280019357"></Script> <Script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-11280019357'); </Script>
+<Script async  strategy="beforeInteractive" custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js" />head>
       <Provider>
         <body className={montserrat.className}>
+          <amp-analytics type="gtag" data-credentials="include"> <script type="application/json"> { "vars": { "gtag_id": "AW-11280019357", "config": { "AW-11280019357": { "groups": "default" } } }, "triggers": { } } </script> </amp-analytics>
           <div className="dark:bg-[#0C0C1E]">
             <Header />
             <div>{children}</div>
