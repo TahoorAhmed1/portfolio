@@ -2,7 +2,7 @@ import "./globals.css";
 import { Montserrat } from "next/font/google";
 import Provider from "@/components/Provider";
 import Header from "@/components/Header";
-import Head from "next/head";
+import Script from 'next/script';
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -24,13 +24,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
-        <script
+      <head>
+        <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6230327304419894"
           crossOrigin="anonymous"
-        ></script>
-      </Head>
+          strategy="beforeInteractive"
+        />
+      </head>
       <Provider>
         <body className={montserrat.className}>
           <div className="dark:bg-[#0C0C1E]">
