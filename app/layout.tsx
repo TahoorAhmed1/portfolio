@@ -3,15 +3,12 @@ import { Montserrat } from "next/font/google";
 import Provider from "@/components/Provider";
 import Header from "@/components/Header";
 import Script from "next/script";
-
 const montserrat = Montserrat({ subsets: ["latin"] });
-
 export const metadata = {
   title: "Tahoor Ahmed | Full Stack Developer",
   description: "Tahoor Ahmed Portfolio",
   icons: [{ rel: "icon", url: "user.jpg" }],
 };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
