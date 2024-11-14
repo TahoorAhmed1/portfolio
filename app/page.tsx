@@ -27,6 +27,12 @@ export default function Home() {
         <Projects />
         <Contact />
         <Footer />
+        <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6230327304419894"
+     data-ad-slot="4869987257"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
       </div>
     </main>
   );
