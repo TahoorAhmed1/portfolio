@@ -14,7 +14,7 @@ export default function Home() {
 
   useEffect(() => {
     setIsMount(true);
-  }, []); // Ensure useEffect has an empty dependency array to avoid infinite loop
+  }, []);
 
   if (!isMount) {
     return null;
