@@ -39,7 +39,7 @@ export default function RootLayout({ children }: any) {
       <Provider>
         <body className={montserrat.className}>
           <div className="dark:bg-[#0C0C1E]">
-            Tahoor
+            
             <Header />
             <main>{children}</main>
           </div>
