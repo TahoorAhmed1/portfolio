@@ -46,7 +46,12 @@ export default function RootLayout({ children }: any) {
       <Provider>
         <body className={montserrat.className}>
           <div className="dark:bg-[#0C0C1E]">
-            
+            <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6230327304419894"
+     data-ad-slot="1265784164"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
             <Header />
             <main>{children}</main>
           </div>
