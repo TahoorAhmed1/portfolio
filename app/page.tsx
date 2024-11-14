@@ -7,16 +7,19 @@ import Footer from "@/components/Footer";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import { useEffect, useState } from "react";
+import Script from "next/script";
 
 export default function Home() {
   const [isMount, setIsMount] = useState(false);
 
   useEffect(() => {
     setIsMount(true);
-  });
+  }, []); // Ensure useEffect has an empty dependency array to avoid infinite loop
+
   if (!isMount) {
     return null;
   }
+
   return (
     <main className="w-full ">
       <div className="max-w-screen-xl mx-auto lg:pt-10 ">
@@ -26,13 +29,21 @@ export default function Home() {
         <Skills />
         <Projects />
         <Contact />
+
+        {/* Google AdSense Ad Unit before Footer */}
+        <ins
+          className="adsbygoogle"
+          style={{ display: "block" }}
+          data-ad-client="ca-pub-6230327304419894"
+          data-ad-slot="1265784164"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+        <Script id="adsbygoogle-init" strategy="afterInteractive">
+          {`(adsbygoogle = window.adsbygoogle || []).push({});`}
+        </Script>
+
         <Footer />
-        <ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6230327304419894"
-     data-ad-slot="4869987257"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
       </div>
     </main>
   );
