@@ -15,14 +15,13 @@ export default function RootLayout({ children }: any) {
   return (
     <html lang="en">
       <head>
-
-          <!-- Google AdSense Script -->
-  <Script
-    async
+        
+        <Script
+        async
         strategy="beforeInteractive"
-    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6230327304419894"
-    crossorigin="anonymous"
-  ></Script>
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6230327304419894"
+        crossorigin="anonymous"
+        />
             
         <Script
           async
