@@ -41,10 +41,13 @@ export default function RootLayout({ children }: any) {
           <div className="dark:bg-[#0C0C1E]">
             <Header />
 
+            <div className="flex justify-center w-full items-center">
+           
+
             {/* Google AdSense Ad Unit */}
             <ins
               className="adsbygoogle"
-              style={{ display: "block" }}
+              style={{ display: "block" , width:"100%" }}
               data-ad-client="ca-pub-6230327304419894"
               data-ad-slot="1265784164"
               data-ad-format="auto"
@@ -53,7 +56,7 @@ export default function RootLayout({ children }: any) {
             <Script id="adsbygoogle-init" strategy="afterInteractive">
               {`(adsbygoogle = window.adsbygoogle || []).push({});`}
             </Script>
-
+ </div>
             <main>{children}</main>
           </div>
         </body>
