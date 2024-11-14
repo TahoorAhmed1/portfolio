@@ -42,14 +42,16 @@ export default function RootLayout({ children }: any) {
             <Header />
 
             {/* Google AdSense Ad Unit */}
-            <ins
-              className="adsbygoogle"
-              style={{ display: "block" }}
-              data-ad-client="ca-pub-6230327304419894"
-              data-ad-slot="1265784164"
-              data-ad-format="auto"
-              data-full-width-responsive="true"
-            ></ins>
+             <div style={{ display: "flex", justifyContent: "center", width: "100%" }}>
+              <ins
+                className="adsbygoogle"
+                style={{ display: "block", width: "100%" }}
+                data-ad-client="ca-pub-6230327304419894"
+                data-ad-slot="1265784164"
+                data-ad-format="auto"
+                data-full-width-responsive="true"
+              ></ins>
+            </div>
             <Script id="adsbygoogle-init" strategy="afterInteractive">
               {`(adsbygoogle = window.adsbygoogle || []).push({});`}
             </Script>
