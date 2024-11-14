@@ -9,7 +9,7 @@ export const metadata = {
   description: "Tahoor Ahmed Portfolio",
   icons: [{ rel: "icon", url: "user.jpg" }],
 };
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }:any) {
   return (
     <html lang="en">
       <head>
