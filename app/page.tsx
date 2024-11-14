@@ -29,8 +29,6 @@ export default function Home() {
         <Skills />
         <Projects />
         <Contact />
-
-        {/* Google AdSense Ad Unit before Footer */}
         <ins
           className="adsbygoogle"
           style={{ display: "block" }}
@@ -42,7 +40,6 @@ export default function Home() {
         <Script id="adsbygoogle-init" strategy="afterInteractive">
           {`(adsbygoogle = window.adsbygoogle || []).push({});`}
         </Script>
-
         <Footer />
       </div>
     </main>
